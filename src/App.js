@@ -1,5 +1,4 @@
 import * as React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
@@ -16,6 +15,13 @@ import AppBar from '@mui/material/AppBar';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
+import Home from './components/Home';
+import About from './components/About';
+import Education from './components/Education';
+import Work from './components/Work';
+import Blogs from './components/Blogs';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -29,7 +35,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
+        <Box sx={{ p: 7 }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -76,12 +82,12 @@ function App() {
             aria-label="full width tabs example"
           >
             <Tab label="Home" {...a11yProps(0)} />
-            <Tab label="About" {...a11yProps(0)} />
-            <Tab label="Education" {...a11yProps(1)} />
-            <Tab label="Work" {...a11yProps(2)} />
-            <Tab label="Blogs" {...a11yProps(2)} />
-            <Tab label="Skills" {...a11yProps(2)} />
-            <Tab label="Contact" {...a11yProps(2)} />
+            <Tab label="About" {...a11yProps(1)} />
+            <Tab label="Education" {...a11yProps(2)} />
+            <Tab label="Work" {...a11yProps(3)} />
+            <Tab label="Blogs" {...a11yProps(4)} />
+            <Tab label="Skills" {...a11yProps(5)} />
+            <Tab label="Contact" {...a11yProps(6)} />
           </Tabs>
         </AppBar>
         <SwipeableViews
@@ -90,13 +96,25 @@ function App() {
           onChangeIndex={handleChangeIndex}
         >
           <TabPanel value={value} index={0} dir={theme.direction}>
-            Item One
+            <Home />
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
-            Item Two
+            <About />
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
-            Item Three
+            <Education />
+          </TabPanel>
+          <TabPanel value={value} index={3} dir={theme.direction}>
+            <Work />
+          </TabPanel>
+          <TabPanel value={value} index={4} dir={theme.direction}>
+            <Blogs />
+          </TabPanel>
+          <TabPanel value={value} index={5} dir={theme.direction}>
+            <Skills />
+          </TabPanel>
+          <TabPanel value={value} index={6} dir={theme.direction}>
+            <Contact />
           </TabPanel>
         </SwipeableViews>
       </Box>
