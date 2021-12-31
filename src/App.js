@@ -8,6 +8,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import EmailIcon from '@mui/icons-material/Email';
 import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';
 import { useTheme } from '@mui/material/styles';
@@ -22,6 +23,7 @@ import Work from './components/Work';
 import Blogs from './components/Blogs';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import b4 from './images/bb1.jpg';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -71,8 +73,8 @@ function App() {
 
   return (
     <div className="App">
-      <Box sx={{ bgcolor: 'background.paper' }}>
-        <AppBar position="static">
+      <Box sx={{ bgcolor: 'background.paper' }} style={{ backgroundImage: `url(${b4})` , margin:0}} >
+        <AppBar position="static" >
           <Tabs
             value={value}
             onChange={handleChange}
@@ -131,6 +133,7 @@ function App() {
           <a href='https://www.instagram.com/akshaykumar_malpani/' target="_blank"><BottomNavigationAction icon={<InstagramIcon />} /> </a>
           <a href='https://twitter.com/apmalpani' target="_blank"><BottomNavigationAction icon={<TwitterIcon />} /> </a>
           <a href='https://www.youtube.com/channel/UCgRj_gFSDSrFBcLHPhgtG2Q' target="_blank"><BottomNavigationAction icon={<YouTubeIcon />} /> </a>
+          <a href='mailto:akshaykumar.malpani@gmail.com' target="_blank"><BottomNavigationAction icon={<EmailIcon />} /> </a>
         </BottomNavigation>
       </Box>
     </div>
