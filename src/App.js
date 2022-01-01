@@ -10,6 +10,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import EmailIcon from '@mui/icons-material/Email';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
+import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';
 import { useTheme } from '@mui/material/styles';
@@ -132,6 +133,7 @@ function App() {
           <a href='https://www.youtube.com/channel/UCgRj_gFSDSrFBcLHPhgtG2Q' target="_blank"><BottomNavigationAction icon={<YouTubeIcon />} /> </a>
           <a href='mailto:akshaykumar.malpani@gmail.com' target="_blank"><BottomNavigationAction icon={<EmailIcon />} /> </a>
           <a href='https://www.yourquote.in/akshaykumar-malpani-ir4g/quotes' target="_blank"><BottomNavigationAction icon={<FormatQuoteIcon />} /> </a>
+          <a href='https://www.quora.com/profile/Akshaykumar-Malpani' target="_blank"><BottomNavigationAction icon={<QuestionAnswerIcon />} /> </a>
         
         </BottomNavigation>
       </Box>
