@@ -37,7 +37,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 7 }}>
+        <Box sx={{ p: 6 }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -84,12 +84,11 @@ function App() {
             aria-label="full width tabs example"
           >
             <Tab label="Home" {...a11yProps(0)} />
-            <Tab label="About" {...a11yProps(1)} />
-            <Tab label="Education" {...a11yProps(2)} />
-            <Tab label="Work" {...a11yProps(3)} />
-            <Tab label="Blogs" {...a11yProps(4)} />
-            <Tab label="Skills" {...a11yProps(5)} />
-            <Tab label="Contact" {...a11yProps(6)} />
+            <Tab label="Education" {...a11yProps(1)} />
+            <Tab label="Work" {...a11yProps(2)} />
+            <Tab label="Blogs" {...a11yProps(3)} />
+            <Tab label="Skills" {...a11yProps(4)} />
+            <Tab label="Contact" {...a11yProps(5)} />
           </Tabs>
         </AppBar>
         <SwipeableViews
@@ -101,21 +100,18 @@ function App() {
             <Home />
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
-            <About />
-          </TabPanel>
-          <TabPanel value={value} index={2} dir={theme.direction}>
             <Education />
           </TabPanel>
-          <TabPanel value={value} index={3} dir={theme.direction}>
+          <TabPanel value={value} index={2} dir={theme.direction}>
             <Work />
           </TabPanel>
-          <TabPanel value={value} index={4} dir={theme.direction}>
+          <TabPanel value={value} index={3} dir={theme.direction}>
             <Blogs />
           </TabPanel>
-          <TabPanel value={value} index={5} dir={theme.direction}>
+          <TabPanel value={value} index={4} dir={theme.direction}>
             <Skills />
           </TabPanel>
-          <TabPanel value={value} index={6} dir={theme.direction}>
+          <TabPanel value={value} index={5} dir={theme.direction}>
             <Contact />
           </TabPanel>
         </SwipeableViews>

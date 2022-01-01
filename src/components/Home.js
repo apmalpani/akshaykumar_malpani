@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import apm from '../images/APM.jpg';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
 export default class Home extends Component {
     constructor() {
@@ -11,13 +13,14 @@ export default class Home extends Component {
     render() {
         return (
             <React.Fragment>
-                <div>
-                    This is Home
-                    <img src={apm} width={100}
-                        style={{ borderRadius: 10, objectFit: 'contain' }}
-                    >
-                    </img>
-                </div>
+                <Typography variant="h6" gutterBottom component="div">
+                    Hello World, thanks for visiting<br />
+                    I am Akshaykumar Malpani (Full stack developer) <br /> with 4.5+ years of experience
+                </Typography>
+                <img src={apm} width={200}
+                    style={{ borderRadius: 10, objectFit: 'contain'}}
+                >
+                </img>
             </React.Fragment>
         );
     }
