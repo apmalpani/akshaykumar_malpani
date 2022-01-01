@@ -27,7 +27,7 @@ export default class Work extends Component {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Software Enginner at EPAM Anywhere
+                Software Engineer at EPAM Anywhere
               </Typography>
               <Typography variant="h6" color="text.secondary">
                 Tech Stack: Java, ReactJS, Cloud, AWS
