@@ -47,7 +47,7 @@ export default class Work extends Component {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Software Enginner at Bank of America
+                Software Engineer at Bank of America
               </Typography>
               <Typography variant="h6" color="text.secondary">
                 Tech Stack: Java (Spring-Boot, Maven), ReactJS, Kafka
