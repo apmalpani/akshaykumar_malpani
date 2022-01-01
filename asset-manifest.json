@@ -1,16 +1,24 @@
 {
   "files": {
     "main.css": "/apm/static/css/main.5ad0967f.css",
-    "main.js": "/apm/static/js/main.02056de9.js",
+    "main.js": "/apm/static/js/main.164f9132.js",
     "static/js/787.7a93dc06.chunk.js": "/apm/static/js/787.7a93dc06.chunk.js",
+    "static/media/VJTI.jpg": "/apm/static/media/VJTI.3c7447653d4db96bd571.jpg",
     "static/media/APM.jpg": "/apm/static/media/APM.d62287fb4d4e03665e3b.jpg",
+    "static/media/bofa.jpg": "/apm/static/media/bofa.e5c42551bdcf8e9395b7.jpg",
+    "static/media/dc.jpg": "/apm/static/media/dc.a9522a06740150917ddd.jpg",
+    "static/media/b2.jpg": "/apm/static/media/b2.10a84dd42c4e918ac8fc.jpg",
+    "static/media/b3.jpg": "/apm/static/media/b3.5a57bc662cfeae6bd362.jpg",
+    "static/media/b1.jpg": "/apm/static/media/b1.7906c2be72737053f675.jpg",
+    "static/media/epam.jpg": "/apm/static/media/epam.f8c1fa511dc518cf2ab3.jpg",
+    "static/media/Siemens.png": "/apm/static/media/Siemens.7c10f35c9e81014a9f1e.png",
     "index.html": "/apm/index.html",
     "main.5ad0967f.css.map": "/apm/static/css/main.5ad0967f.css.map",
-    "main.02056de9.js.map": "/apm/static/js/main.02056de9.js.map",
+    "main.164f9132.js.map": "/apm/static/js/main.164f9132.js.map",
     "787.7a93dc06.chunk.js.map": "/apm/static/js/787.7a93dc06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ad0967f.css",
-    "static/js/main.02056de9.js"
+    "static/js/main.164f9132.js"
   ]
 }
