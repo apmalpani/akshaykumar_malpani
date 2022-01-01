@@ -1,12 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.5ad0967f.css",
-    "main.js": "/static/js/main.056320bf.js",
+    "main.js": "/static/js/main.fdc02e83.js",
     "static/js/787.7a93dc06.chunk.js": "/static/js/787.7a93dc06.chunk.js",
     "static/media/VJTI.jpg": "/static/media/VJTI.3c7447653d4db96bd571.jpg",
+    "static/media/4.jpg": "/static/media/4.0dcef749d88a8597b2f0.jpg",
     "static/media/APM.jpg": "/static/media/APM.d62287fb4d4e03665e3b.jpg",
+    "static/media/9.jpg": "/static/media/9.04c94f3969bfa269ae36.jpg",
+    "static/media/5.jpg": "/static/media/5.828aedc1b209f1734fc6.jpg",
+    "static/media/11.jpg": "/static/media/11.bc2a158dc2e11c4b9a00.jpg",
+    "static/media/1.jpg": "/static/media/1.fdeb105aaa44b5e65d10.jpg",
+    "static/media/6.jpg": "/static/media/6.d51b60e6cf095e9c2252.jpg",
+    "static/media/7.jpg": "/static/media/7.dd3d366b31af47d60f66.jpg",
+    "static/media/10.jpg": "/static/media/10.024de7f878d8188b42b1.jpg",
     "static/media/bofa.jpg": "/static/media/bofa.e5c42551bdcf8e9395b7.jpg",
     "static/media/dc.jpg": "/static/media/dc.a9522a06740150917ddd.jpg",
+    "static/media/3.jpg": "/static/media/3.b9b329938425bba565bd.jpg",
+    "static/media/2.jpg": "/static/media/2.092db283c5166e507010.jpg",
+    "static/media/8.jpg": "/static/media/8.bca0c936ff5d3e8895ab.jpg",
     "static/media/b2.jpg": "/static/media/b2.10a84dd42c4e918ac8fc.jpg",
     "static/media/b3.jpg": "/static/media/b3.5a57bc662cfeae6bd362.jpg",
     "static/media/b1.jpg": "/static/media/b1.7906c2be72737053f675.jpg",
@@ -14,11 +25,11 @@
     "static/media/Siemens.png": "/static/media/Siemens.7c10f35c9e81014a9f1e.png",
     "index.html": "/index.html",
     "main.5ad0967f.css.map": "/static/css/main.5ad0967f.css.map",
-    "main.056320bf.js.map": "/static/js/main.056320bf.js.map",
+    "main.fdc02e83.js.map": "/static/js/main.fdc02e83.js.map",
     "787.7a93dc06.chunk.js.map": "/static/js/787.7a93dc06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ad0967f.css",
-    "static/js/main.056320bf.js"
+    "static/js/main.fdc02e83.js"
   ]
 }
