@@ -1,5 +1,17 @@
 import React, { Component } from 'react';
-import Carousel from 'react-bootstrap/Carousel'
+import MuiImageSlider from 'mui-image-slider';
+import a1 from '../images/1.jpg';
+import a2 from '../images/2.jpg';
+import a3 from '../images/3.jpg';
+import a4 from '../images/4.jpg';
+import a5 from '../images/5.jpg';
+import a6 from '../images/6.jpg';
+import a7 from '../images/7.jpg';
+import a8 from '../images/8.jpg';
+import a9 from '../images/9.jpg';
+import a10 from '../images/10.jpg';
+import a11 from '../images/11.jpg';
+import Typography from '@mui/material/Typography';
 
 export default class About extends Component {
     constructor() {
@@ -9,46 +21,15 @@ export default class About extends Component {
     }
 
     render() {
+        const images = [
+            a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11
+        ];
         return (
             <React.Fragment>
-                This is About
-                <Carousel>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src="holder.js/800x400?text=First slide&bg=373940"
-                            alt="First slide"
-                        />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src="holder.js/800x400?text=Second slide&bg=282c34"
-                            alt="Second slide"
-                        />
-
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src="holder.js/800x400?text=Third slide&bg=20232a"
-                            alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+               <Typography variant="h6" gutterBottom component="div">
+                   Some of my Favourite Pics from various places
+                </Typography>
+                <MuiImageSlider component="div" images={images} />
             </React.Fragment>
         );
     }
