@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ad0967f.css",
-    "main.js": "/static/js/main.fdc02e83.js",
+    "main.js": "/static/js/main.d897f276.js",
     "static/js/787.7a93dc06.chunk.js": "/static/js/787.7a93dc06.chunk.js",
     "static/media/VJTI.jpg": "/static/media/VJTI.3c7447653d4db96bd571.jpg",
     "static/media/4.jpg": "/static/media/4.0dcef749d88a8597b2f0.jpg",
@@ -25,11 +25,11 @@
     "static/media/Siemens.png": "/static/media/Siemens.7c10f35c9e81014a9f1e.png",
     "index.html": "/index.html",
     "main.5ad0967f.css.map": "/static/css/main.5ad0967f.css.map",
-    "main.fdc02e83.js.map": "/static/js/main.fdc02e83.js.map",
+    "main.d897f276.js.map": "/static/js/main.d897f276.js.map",
     "787.7a93dc06.chunk.js.map": "/static/js/787.7a93dc06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ad0967f.css",
-    "static/js/main.fdc02e83.js"
+    "static/js/main.d897f276.js"
   ]
 }
