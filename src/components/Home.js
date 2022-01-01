@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import apm from '../images/APM.jpg';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import ControlledAccordions from './Home/ControlledAccordions';
 
 export default class Home extends Component {
     constructor() {
@@ -21,6 +22,7 @@ export default class Home extends Component {
                     style={{ borderRadius: 10, objectFit: 'contain'}}
                 >
                 </img>
+                <ControlledAccordions />
             </React.Fragment>
         );
     }

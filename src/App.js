@@ -26,6 +26,7 @@ import Blogs from './components/Blogs';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import b4 from './images/bb1.jpg';
+import { ContactPage } from '@mui/icons-material';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -39,7 +40,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 6 }}>
+        <Box sx={{ p: 7 }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -75,7 +76,7 @@ function App() {
 
   return (
     <div className="App">
-      <Box sx={{ bgcolor: 'background.paper' }} style={{ backgroundImage: `url(${b4})` , margin:0}} >
+      <Box sx={{ bgcolor: 'background.paper' }} style={{ backgroundImage: `url(${b4})`, margin: 0 }} >
         <AppBar position="static" >
           <Tabs
             value={value}
@@ -90,7 +91,8 @@ function App() {
             <Tab label="Work" {...a11yProps(2)} />
             <Tab label="Blogs" {...a11yProps(3)} />
             <Tab label="Skills" {...a11yProps(4)} />
-            <Tab label="Contact" {...a11yProps(5)} />
+            <Tab label="About" {...a11yProps(5)} />
+            <Tab label="Contact" {...a11yProps(6)} />
           </Tabs>
         </AppBar>
         <SwipeableViews
@@ -114,6 +116,9 @@ function App() {
             <Skills />
           </TabPanel>
           <TabPanel value={value} index={5} dir={theme.direction}>
+            <About />
+          </TabPanel>
+          <TabPanel value={value} index={6} dir={theme.direction}>
             <Contact />
           </TabPanel>
         </SwipeableViews>
@@ -134,7 +139,6 @@ function App() {
           <a href='mailto:akshaykumar.malpani@gmail.com' target="_blank"><BottomNavigationAction icon={<EmailIcon />} /> </a>
           <a href='https://www.yourquote.in/akshaykumar-malpani-ir4g/quotes' target="_blank"><BottomNavigationAction icon={<FormatQuoteIcon />} /> </a>
           <a href='https://www.quora.com/profile/Akshaykumar-Malpani' target="_blank"><BottomNavigationAction icon={<QuestionAnswerIcon />} /> </a>
-        
         </BottomNavigation>
       </Box>
     </div>
