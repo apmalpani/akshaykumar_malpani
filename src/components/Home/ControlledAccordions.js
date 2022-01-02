@@ -29,7 +29,10 @@ export default function ControlledAccordions() {
           <Typography>
               Since last 5 years, I have written good amount of code in Java and Javascript. 
               I love working in ReactJS. I am currently exploring the Quantum Revolution and 
-              trying to contribute in the same. 
+              trying to contribute in the same. <br />
+              Have a look at my recent React native Android Project: 
+              <a href='https://bit.ly/master_marathi_app' target="_blank">Click here </a>
+              
           </Typography>
         </AccordionDetails>
       </Accordion>

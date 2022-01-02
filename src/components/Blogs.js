@@ -20,7 +20,7 @@ export default class Blogs extends Component {
     render() {
         return (
             <React.Fragment>
-                <Card >
+                <a href='https://www.linkedin.com/pulse/future-quantum-computing-10-akshaykumar-malpani/' target="_blank"><Card >
                     <CardActionArea>
                         <CardMedia
                             component="img"
@@ -36,11 +36,11 @@ export default class Blogs extends Component {
                             <ThumbDownIcon />
                         </Button>
                         <Button>
-                        <a href='https://www.linkedin.com/pulse/future-quantum-computing-10-akshaykumar-malpani/' target="_blank"> <OpenInBrowserIcon /> </a>
+                            <a href='https://www.linkedin.com/pulse/future-quantum-computing-10-akshaykumar-malpani/' target="_blank"> <OpenInBrowserIcon /> </a>
                         </Button>
                     </CardActions>
-                </Card> <br /> <br />
-                <Card >
+                </Card></a> <br /> <br />
+                <a href='https://www.linkedin.com/pulse/future-quantum-computing-20-akshaykumar-malpani/' target="_blank"><Card >
                     <CardActionArea>
                         <CardMedia
                             component="img"
@@ -56,11 +56,11 @@ export default class Blogs extends Component {
                             <ThumbDownIcon />
                         </Button>
                         <Button>
-                        <a href='https://www.linkedin.com/pulse/future-quantum-computing-20-akshaykumar-malpani/' target="_blank"> <OpenInBrowserIcon /> </a>
+                            <a href='https://www.linkedin.com/pulse/future-quantum-computing-20-akshaykumar-malpani/' target="_blank"> <OpenInBrowserIcon /> </a>
                         </Button>
                     </CardActions>
-                </Card> <br /> <br />
-                <Card >
+                </Card></a> <br /> <br />
+                <a href='https://www.linkedin.com/pulse/future-quantum-computing-30-akshaykumar-malpani/' target="_blank"><Card >
                     <CardActionArea>
                         <CardMedia
                             component="img"
@@ -76,10 +76,10 @@ export default class Blogs extends Component {
                             <ThumbDownIcon />
                         </Button>
                         <Button>
-                        <a href='https://www.linkedin.com/pulse/future-quantum-computing-30-akshaykumar-malpani/' target="_blank"> <OpenInBrowserIcon /> </a>
+                            <a href='https://www.linkedin.com/pulse/future-quantum-computing-30-akshaykumar-malpani/' target="_blank"> <OpenInBrowserIcon /> </a>
                         </Button>
                     </CardActions>
-                </Card> <br /> <br />
+                </Card></a> <br /> <br />
             </React.Fragment>
         );
     }
