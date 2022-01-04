@@ -65,7 +65,7 @@ export default function ControlledAccordions() {
             Traveller
           </Typography>
           <Typography sx={{ color: 'text.secondary' }}>
-              Travalled in 13+ of Indian states
+              Travelled in 13+ of Indian states
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
