@@ -74,6 +74,39 @@ export default class Skills extends Component {
                     <CardActionArea>
                         <CardContent>
                             <Typography gutterBottom variant="h6" component="div">
+                                AWS
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Slider defaultValue={60} step={10} marks min={10} max={100} disabled />
+                <br />  <br />
+                <Card >
+                    <CardActionArea>
+                        <CardContent>
+                            <Typography gutterBottom variant="h6" component="div">
+                                GraphQL
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Slider defaultValue={60} step={10} marks min={10} max={100} disabled />
+                <br />  <br />
+                <Card >
+                    <CardActionArea>
+                        <CardContent>
+                            <Typography gutterBottom variant="h6" component="div">
+                                Webservices (Rest)
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                <Slider defaultValue={70} step={10} marks min={10} max={100} disabled />
+                <br />  <br />
+                <Card >
+                    <CardActionArea>
+                        <CardContent>
+                            <Typography gutterBottom variant="h6" component="div">
                                 Python
                             </Typography>
                         </CardContent>
